@@ -1,0 +1,811 @@
+html {
+  height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: black;
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+  z-index: 99;
+}
+
+.top-navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.bottom-navbar {
+  display: flex;
+  justify-content: center;
+  /* margin: 0 3%; */
+}
+
+.bottom-navbar h3 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.not-logo {
+  display: flexbox;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2rem;
+}
+
+.page-link {
+  display: flex;
+  padding-right: 1.5rem;
+}
+
+.link {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0.5rem;
+  overflow: hidden;
+}
+
+.not-logo input[type="text"] {
+  padding: 6px;
+  border: none;
+  font-size: 17px;
+  border-radius: 40px;
+  width: 60rem;
+  margin-left: 3rem;
+}
+
+.login-button {
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5rem 0.7rem;
+  width: 5rem;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+
+.button-navbar {
+  color: black;
+  background-color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  padding: 0.5rem 0.7rem;
+  width: 5rem;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+/* HEADER */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  height: 6rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.header-logo {
+  color: white;
+  font-family: "Poppins";
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.header-title {
+  color: white;
+  font-family: "Poppins";
+  font-size: 55px;
+  font-weight: 300;
+  margin-left: 20.5rem;
+  margin-right: auto;
+}
+
+.header-title-login {
+  color: white;
+  font-family: "Poppins";
+  font-size: 55px;
+  font-weight: 300;
+  margin-left: 22.2rem;
+  margin-right: auto;
+}
+
+.header-title-aboutus {
+  color: white;
+  font-family: "Poppins";
+  font-size: 55px;
+  font-weight: 300;
+  margin-left: 20.2rem;
+  margin-right: auto;
+  align-self: center;
+}
+
+.header-title-help {
+  color: white;
+  font-family: "Poppins";
+  font-size: 55px;
+  font-weight: 300;
+  margin-left: 23rem;
+  margin-right: auto;
+  align-self: center;
+}
+
+/* FOOTER */
+.footer-container {
+  background-color: black;
+  margin-top: 10%;
+}
+
+.footer-img {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* HOME */
+.homepage-main-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3%;
+  display: flex;
+  /* background-color: brown; */
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-banner {
+  margin-top: 4%;
+  width: 83%;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4%;
+}
+
+.product {
+  border-radius: 30px;
+  border: 1px solid #73777b;
+  padding-bottom: 0.6rem;
+  margin-right: 2.25rem;
+  margin-left: 2.25rem;
+}
+
+.product-image {
+  border-radius: 30px 30px 0 0;
+  border: 1px solid #73777b;
+  margin: 0.3rem;
+  background-color: white;
+}
+
+.product-properties {
+  margin-left: 1rem;
+}
+
+.product-name {
+  font-size: 22px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.product-price {
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-link {
+  text-decoration: none;
+  color: black;
+  margin-left: 14rem;
+}
+
+/* NOTIFICATION */
+.notification-main-content {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5%;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  background-color: #eceaea;
+}
+
+.car-notification-container {
+  display: flex;
+  margin: 1.5% 1.5%;
+}
+
+.car-notification-properties {
+  margin-left: 2%;
+}
+
+.car-image {
+  width: 20%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.car-notification-status {
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+}
+
+.car-notification-desc {
+  font-size: 1rem;
+}
+
+/* CAR 1 */
+.car1-main-content {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  margin: 0 9%;
+  /* background-color: #ECEAEA; */
+}
+
+.car-detail-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5% 1.5%;
+  /* background-color: aqua; */
+}
+
+.car-detail-image {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.car-detail-name {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.car-detail-bottom {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.car-detail-outer {
+  border: 1px solid #73777b;
+  border-radius: 30px;
+  padding: 0.3rem;
+  width: 70%;
+}
+
+.car-detail-properties {
+  border: 1px solid #73777b;
+  border-radius: 30px;
+  padding: 1rem;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.car-detail-text {
+  padding-bottom: 2rem;
+  padding-left: 0.3rem;
+  padding-top: 0.3rem;
+}
+
+.car-detail-side {
+  margin-left: 4rem;
+  margin-top: 11rem;
+}
+
+.car-detail-price {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.car-detail-button {
+  padding: 0.7rem 1.2rem;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-left: 3.3rem;
+}
+
+.car-detail-icon-container {
+  display: flex;
+  /* background-color: aqua; */
+  margin-bottom: 0.5rem;
+  align-content: center;
+}
+
+.car-detail-icon-seat {
+  width: 2rem;
+  height: 2rem;
+  padding-left: 0.4rem;
+}
+
+.car-detail-icon {
+  width: 2.7rem;
+  height: 3rem;
+  padding-left: 0.1rem;
+}
+
+.car-detail-icon-container p {
+  padding-left: 1rem;
+  align-items: center;
+}
+
+.car-detail-text-seat {
+  padding-bottom: 2rem;
+  margin-left: 0.4rem;
+}
+
+/* CAR 2 */
+.car2-detail-image {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+/* CAR 3 */
+.car3-detail-image {
+  width: 46%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+/* REGISTER & LOGIN */
+.content-outer {
+  display: flex;
+  flex-direction: column;
+  margin: 7rem 32rem;
+  border: 1px solid #73777b;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.input-phone {
+  margin-bottom: 2rem;
+}
+
+.title-input {
+  width: 92.1%;
+  border: 1px solid #73777b;
+  border-radius: 4px;
+  padding: 0.8rem 1rem;
+  font-size: 18px;
+}
+
+.next-button {
+  display: flex;
+}
+
+.next-button button {
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #73777b;
+  color: white;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.register-elemen img {
+  width: 100%;
+  margin-top: 2.4rem;
+}
+
+.register-elemen2 img {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.sosmed-button {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.8rem;
+  gap: 2rem;
+}
+
+.sosmed-button button {
+  width: 50%;
+  padding: 0.7rem 1rem;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid #73777b;
+  font-size: 14px;
+}
+
+.sosmed-button2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.8rem;
+  gap: 1.2rem;
+}
+
+.sosmed-button2 button {
+  width: 50%;
+  padding: 0.7rem 1rem;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid #73777b;
+  font-size: 14px;
+}
+
+.link-register {
+  text-decoration: none;
+  color: white;
+}
+
+.link-sosmed {
+  text-decoration: none;
+  color: black;
+}
+
+.register-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.link-login {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.register-ask {
+  margin-top: 2rem;
+}
+
+.login-ask {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.register-asking {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+/* ABOUT US */
+.content-outer-aboutus {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 20rem;
+  border: 1px solid #73777b;
+  border-radius: 8px;
+  padding: 2rem;
+  height: 500px;
+}
+
+.content-logo {
+  font-size: 80px;
+  font-weight: 600;
+  align-self: center;
+  justify-content: center;
+}
+
+/* BAYAR */
+.paragraf-1 {
+  font-size: 42px;
+  text-align: center;
+  padding: 32px;
+}
+
+/* BOOK 1 */
+.book1-mobil {
+  display: flex;
+}
+
+.mobil-1{
+  margin-right: 8rem;
+}
+
+.nama-mobil1 {
+  margin-top: 2%;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+input {
+  border: 2px black solid;
+  width: 560px;
+  height: 30px;
+}
+
+.phone-number {
+  margin-top: 5%;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.email {
+  margin-top: 5%;
+}
+
+.Pick-Up {
+  margin-top: 5%;
+}
+
+.PickUp-Date {
+  margin-top: 5%;
+}
+
+.input-Date {
+  display: flex;
+  gap: 12%;
+}
+
+.return {
+  margin-top: 5%;
+}
+
+.return-date {
+  display: flex;
+  gap: 12%;
+}
+
+.Driver {
+  margin-top: 5%;
+}
+
+.driver-service {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  font-size: 16.5px;
+  margin-bottom: 5%;
+}
+
+.Driver .yes-no {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 100;
+  /* justify-content: space-around; */
+  /* gap: 20%; */
+}
+
+.Driver .yes-no input {
+  width: 100%;
+}
+
+.Total {
+  display: flex;
+  flex-direction: column;
+  font-size: 16.5px;
+  /* justify-content:space-between; */
+  margin-right: 3%;
+  /* align-items: center; */
+}
+
+.input-pay input{
+  width: 245px;
+}
+
+.input-pay {
+  /* width: 245px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* BAYAR */
+.complete {
+  align-self: center;
+  display: flex;
+  background-color: #473E3E;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 1.5%;
+  width: 870px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.complete .payment-1{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.payment {
+  color: white;
+  align-self: center;
+  font-weight: 100;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no {
+  margin-top: 1%;
+  margin-right: 20.7%;
+  color: #6e6e6e;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.rp {
+  margin-top: 1%;
+  margin-right: 13%;
+  margin-left: 14%;
+  color: #52c665;
+  font-size: 65px;
+}
+
+.dd {
+  margin-top: 1%;
+  margin-right: 14.75%;
+  color: #6e6e6e;
+}
+
+.bayar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  /* justify-content: center; */
+  background-color: #d9d9d9;
+  width: 448px;
+  height: 328px;
+  margin-left: 36%;
+  margin-top: 1%;
+  border-radius: 14px;
+}
+
+.payment-1 {
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-self: center;
+}
+
+.bayar a{
+  text-decoration: none;
+}
+
+.payment {
+  color: #6e6e6e;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 8%;
+  margin-right: 8%;
+}
+
+.complete-1 {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  height: 52.51px;
+  width: 360px;
+  margin-top: 7%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 6%;
+}
+
+.Ellipse {
+  display: flex;
+  padding: 18px 18px;
+}
+
+.panah {
+  margin-left: 4rem;
+  font-size: small;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.panah-1{
+  margin-left: 5.5rem;
+  font-size: small;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* COMPLETE */
+.complete-payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.pembayaran-selesai {
+  margin-top: 2%;
+  /* margin-left: 1%; */
+  color: #6e6e6e;
+}
+
+.Thank-You {
+  color: #6e6e6e;
+  margin-top: 2%;
+  /* margin-left: 1%; */
+}
+.receipt {
+  /* margin-left: 1%; */
+  color: #6e6e6e;
+}
+
+.Back-homepage {
+  background-color: black;
+  color: white;
+  width: 218px;
+  height: 57px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Back {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  /* margin-left: 1%; */
+}
+
+/* HELP */
+.content-help{
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 15rem 15rem 15rem;
+  border: 1px solid #ECEAEA;
+  border-radius: 8px;
+  padding: 2rem;
+  height: 500%;
+  background-color: #ECEAEA;
+}
+
+.pertanyaan-1{
+  font-weight: 450;
+  font-size: 32px;
+}
+
+.jawaban-1{
+  font-weight: 300;
+  padding-bottom: 1.5rem;
+  font-size: 32px;
+}
